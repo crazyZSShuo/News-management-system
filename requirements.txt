@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+dynaconf
+alembic
+bcrypt
+passlib
+PyMySQL
+python-jose
+python-multipart
+SQLAlchemy
+sqlacodegen

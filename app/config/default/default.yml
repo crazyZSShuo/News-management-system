@@ -1,0 +1,10 @@
+app:
+  title: "News management system"
+  description: "News management system"
+  version: "0.0.1"
+  debug: true
+  SQLALCHEMY_DATABASE_URL: mysql+pymysql://user:password@localhost:3306/auth_demo
+  SECRET_KEY: f457d24256ef96101e7ed5867e60f149
+  ALGORITHM: HS256
+#  ACCESS_TOKEN_EXPIRE_MINUTES: 31536000
+  ACCESS_TOKEN_EXPIRE_MINUTES: 30
